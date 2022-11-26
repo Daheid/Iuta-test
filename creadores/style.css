@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ubuntu", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+    background-color: #e6e6e6; 
+  }
+
+/*MENU*/
+.a {
+    color: #FFF;
+  }
+  
+  
+  #container {
+    margin: 0;
+  }
+  
+  nav {
+    margin: 30px auto;
+    background-color: #4fb7f9;
+    box-shadow: 0px 3px 20px 3px #162433;
+  }
+  
+  nav ul {
+      padding: 0;
+      margin: 0 auto;
+      list-style: none;
+      position: relative;
+      text-align: center;
+      background-color: #66b3ff;
+  }
+    
+  nav ul li {
+    display:inline-block;
+    background-color: #4fb7f9;
+    position: relative;
+    z-index: 2;
+    }
+  
+  nav a {
+    display:block;
+    padding:0 20px; 
+    color:#FFF;
+    font-size:16px;
+    line-height: 60px;
+    text-decoration:none;
+  }
+  
+  nav a:hover { 
+    background-color: #000000; 
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute; 
+    top: 60px; 
+  }
+    
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+    
+  nav ul ul li {
+    width:300px;
+    float:none;
+    display:list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    position: relative;
+    top:-60px; 
+    left:170px;
+  }
+  
+    
+  i {
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 4px;
+      margin: -7px 0 0px 7px;
+      vertical-align: middle;
+  }
+  
+  .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }
+
+/*FIN*/
+
+/*section */
+
+section{
+  padding-top: 2%;
+}
+article {
+    display: inline block;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.creator {
+    border: 3px solid #66b3ff;
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 10px 12px 20px 0 #111;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.list{
+    display: inline;
+    align-items: center;
+}
+
+
+.creator img {
+    border-radius: 3%;
+}
+
+.creator ul {
+    margin: 3px;
+    background-color: #fff;
+}
+
+.creator ul li {
+    background-color: #fff;
+}
